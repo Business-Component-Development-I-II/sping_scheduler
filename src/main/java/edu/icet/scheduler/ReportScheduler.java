@@ -4,7 +4,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SmsScheduler {
+public class ReportScheduler {
 
     @Scheduled(cron = "* * * * * *")
     void sendSms(){
